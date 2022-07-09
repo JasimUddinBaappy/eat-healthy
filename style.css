@@ -1,0 +1,114 @@
+body{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+h1{
+  font-size: 50px;
+  color: rgb(155, 149, 149);
+}
+
+h2{
+  color: gray;
+}
+.orange-color{
+  color: orange;
+}
+
+h4{
+  display: inline;
+  font-size: 1.5rem;
+}
+
+p{
+  color: gray;
+}
+.flexible-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 120xp;
+}
+
+.half-width{
+  width: 50%;
+  padding: 5%;
+}
+
+.half-width img{
+  width: 80%;
+}
+
+.link-button{
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 10px 40px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.aboutme-area{
+  background-image: url("images/bg.png");
+  background-repeat: no-repeat;
+}
+
+.img-resize img{
+  width: 50%;
+}
+
+.my-reci-desc{
+  width: 500px;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.my-recipies{
+  padding: 1% 7%;
+}
+.card{
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 6px 3px 10px 3px gray;
+}
+
+.card-style{
+  margin-left: 20px;
+}
+
+.card-title{
+  margin-left: 10px;
+}
+
+.social-item{
+  content: '';
+  display: table;
+  border: none;
+
+  margin: 1% 7%;
+  box-shadow: 6px 3px 10px 3px gray;
+}
+
+.social-item h1{
+  color: black;
+  font: 50px;
+}
+
+.item{
+  width: 30%;
+  float: left;
+}
+
+footer{
+  background-color: black;
+}
+
+.footer-item{
+  text-align: center;
+}
+
+.footer-item p{
+  font-size: 12px;
+  font-weight: bold;
+}
